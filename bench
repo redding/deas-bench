@@ -1,0 +1,27 @@
+#!/usr/bin/env ruby
+# $ bundle exec bench
+
+require 'cli'
+require 'runner'
+
+@cli = CLIRB.new
+
+begin
+  @cli.parse!(ARGV)
+  DeasBenchRunner.new(@cli.args, @cli.opts).run
+rescue CLIRB::HelpExit
+  puts "Usage: bench [options] FOLDER\n"\
+       "\n"\
+       "Options:"\
+       "#{@cli}"
+rescue CLIRB::VersionExit
+  puts "n/a"
+rescue CLIRB::Error => exception
+  $stderr.puts "#{exception.message}\n\n"
+  exit(1)
+rescue StandardError => exception
+  $stderr.puts "#{exception.class}: #{exception.message}"
+  $stderr.puts exception.backtrace.join("\n")
+  exit(1)
+end
+exit(0)
