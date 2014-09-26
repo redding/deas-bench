@@ -1,6 +1,6 @@
 # deas-bench
 
-A script to bench deas versions against itself and others
+A project to bench Deas versions against themselves and others
 
 ## Results
 
