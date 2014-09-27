@@ -13,9 +13,9 @@ A single, basic "Hello World" endpoint
 | Sinatra 1.4.5 |       445.86 |     125.24KB |
 |   Deas 0.25.0 |       437.40 |     122.59KB |
 
-### 01 Erb Basic
+### 02 Erb Basic
 
-A single, basic "Hello World" endpoint
+A single endpoint that renders a basic template with no partials or layouts.
 
 |    Version    | Requests/sec | Transfer/sec |
 | ------------- | ------------ | ------------ |
