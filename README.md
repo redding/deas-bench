@@ -13,6 +13,15 @@ A single, basic "Hello World" endpoint
 | Sinatra 1.4.5 |       445.86 |     125.24KB |
 |   Deas 0.25.0 |       437.40 |     122.59KB |
 
+### 01 Erb Basic
+
+A single, basic "Hello World" endpoint
+
+|    Version    | Requests/sec | Transfer/sec |
+| ------------- | ------------ | ------------ |
+| Sinatra 1.4.5 |       342.95 |     113.20KB |
+|   Deas 0.25.0 |       345.00 |     114.29KB |
+
 ## Usage
 
 ```
