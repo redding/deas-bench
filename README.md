@@ -22,6 +22,15 @@ A single endpoint that renders a basic template with no partials or layouts.
 | Sinatra 1.4.5 |       342.95 |     113.20KB |
 |   Deas 0.25.0 |       345.00 |     114.29KB |
 
+### 03 Erb Partial
+
+A single endpoint that renders a template that renders a partial with no layout.
+
+|    Version    | Requests/sec | Transfer/sec |
+| ------------- | ------------ | ------------ |
+| Sinatra 1.4.5 |       295.73 |     111.76KB |
+|   Deas 0.25.0 |       313.54 |     118.77KB |
+
 ## Usage
 
 ```
