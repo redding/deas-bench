@@ -4,11 +4,18 @@ A project to bench Deas versions against themselves and others
 
 ## Results
 
-### Deas: Latest Hello
+#### Deas 0.25.0: Hello
 
 ```
-Requests/sec:    414.80
-Transfer/sec:    116.67KB
+Requests/sec:    437.40
+Transfer/sec:    122.59KB
+```
+
+#### Sinatra 1.4.5: Hello
+
+```
+Requests/sec:    445.86
+Transfer/sec:    125.24KB
 ```
 
 ## Usage
