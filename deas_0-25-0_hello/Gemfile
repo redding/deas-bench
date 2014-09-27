@@ -1,3 +1,3 @@
 source "https://rubygems.org"
 
-gem "deas"
+gem "deas", "= 0.25.0"

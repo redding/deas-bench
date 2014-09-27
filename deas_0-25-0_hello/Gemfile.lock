@@ -19,4 +19,4 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  deas
+  deas (= 0.25.0)
