@@ -33,7 +33,7 @@ A single endpoint that renders a template that renders a partial with no layout.
 
 ### 04 Erb with Layout
 
-A single endpoint that renders a template that renders a partial with no layout.
+A single endpoint that renders a template that renders in a layout.
 
 |    Version    | Requests/sec | Transfer/sec |
 | ------------- | ------------ | ------------ |
@@ -42,12 +42,21 @@ A single endpoint that renders a template that renders a partial with no layout.
 
 ### 05 Erb with Layout and Partial
 
-A single endpoint that renders a template that renders a partial with no layout.
+A single endpoint that renders a template that renders a partial in a layout.
 
 |    Version    | Requests/sec | Transfer/sec |
 | ------------- | ------------ | ------------ |
 | Sinatra 1.4.5 |       266.89 |     109.50KB |
 |   Deas 0.25.0 |       294.42 |     120.46KB |
+
+### 06 Hello many routes
+
+A single, basic "Hello World" endpoint alongside many other endpoints.
+
+|    Version    | Requests/sec | Transfer/sec |
+| ------------- | ------------ | ------------ |
+| Sinatra 1.4.5 |       320.01 |      89.96KB |
+|   Deas 0.25.0 |       320.64 |      90.00KB |
 
 ## Usage
 
