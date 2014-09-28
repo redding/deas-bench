@@ -40,6 +40,15 @@ A single endpoint that renders a template that renders a partial with no layout.
 | Sinatra 1.4.5 |       291.35 |     107.39KB |
 |   Deas 0.25.0 |       327.96 |     120.56KB |
 
+### 05 Erb with Layout and Partial
+
+A single endpoint that renders a template that renders a partial with no layout.
+
+|    Version    | Requests/sec | Transfer/sec |
+| ------------- | ------------ | ------------ |
+| Sinatra 1.4.5 |       266.89 |     109.50KB |
+|   Deas 0.25.0 |       294.42 |     120.46KB |
+
 ## Usage
 
 ```
