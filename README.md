@@ -12,6 +12,7 @@ A single, basic "Hello World" endpoint
 | ------------- | ------------ | ------------ |
 | Sinatra 1.4.5 |       445.86 |     125.24KB |
 |   Deas 0.25.0 |       437.40 |     122.59KB |
+|   Deas 0.27.0 |       435.37 |     122.44KB |
 
 ### 02 Erb Basic
 
@@ -21,6 +22,7 @@ A single endpoint that renders a basic template with no partials or layouts.
 | ------------- | ------------ | ------------ |
 | Sinatra 1.4.5 |       342.95 |     113.20KB |
 |   Deas 0.25.0 |       345.00 |     114.29KB |
+|   Deas 0.27.0 |       348.32 |     115.25KB |
 
 ### 03 Erb with Partial
 
@@ -30,6 +32,7 @@ A single endpoint that renders a template that renders a partial with no layout.
 | ------------- | ------------ | ------------ |
 | Sinatra 1.4.5 |       295.73 |     111.76KB |
 |   Deas 0.25.0 |       313.54 |     118.77KB |
+|   Deas 0.27.0 |       312.85 |     118.37KB |
 
 ### 04 Erb with Layout
 
@@ -39,6 +42,7 @@ A single endpoint that renders a template that renders in a layout.
 | ------------- | ------------ | ------------ |
 | Sinatra 1.4.5 |       291.35 |     107.39KB |
 |   Deas 0.25.0 |       327.96 |     120.56KB |
+|   Deas 0.27.0 |       326.43 |     120.00KB |
 
 ### 05 Erb with Layout and Partial
 
@@ -48,6 +52,7 @@ A single endpoint that renders a template that renders a partial in a layout.
 | ------------- | ------------ | ------------ |
 | Sinatra 1.4.5 |       266.89 |     109.50KB |
 |   Deas 0.25.0 |       294.42 |     120.46KB |
+|   Deas 0.27.0 |       285.44 |     116.79KB |
 
 ### 06 Hello many routes
 
@@ -57,6 +62,7 @@ A single, basic "Hello World" endpoint alongside many other endpoints.
 | ------------- | ------------ | ------------ |
 | Sinatra 1.4.5 |       320.01 |      89.96KB |
 |   Deas 0.25.0 |       320.64 |      90.00KB |
+|   Deas 0.27.0 |       321.00 |      90.38KB |
 
 ## Usage
 
