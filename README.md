@@ -4,71 +4,71 @@ A project to bench Deas versions against themselves and others
 
 ## Results
 
-### 01 Hello
+### 01_hello
 
-A single, basic "Hello World" endpoint
-
-|    Version    | Requests/sec | Transfer/sec |
-| ------------- | ------------ | ------------ |
-| Sinatra 1.4.5 |       445.86 |     125.24KB |
-|   Deas 0.25.0 |       437.40 |     122.59KB |
-|   Deas 0.27.0 |       435.37 |     122.44KB |
-|   Deas 0.28.0 |       432.44 |     121.75KB |
-
-### 02 Erb Basic
-
-A single endpoint that renders a basic template with no partials or layouts.
+Single "Hello World" endpoint
 
 |    Version    | Requests/sec | Transfer/sec |
 | ------------- | ------------ | ------------ |
-| Sinatra 1.4.5 |       342.95 |     113.20KB |
-|   Deas 0.25.0 |       345.00 |     114.29KB |
-|   Deas 0.27.0 |       348.32 |     115.25KB |
-|   Deas 0.28.0 |       342.24 |     113.10KB |
+| sinatra-1.4.5 |       454.33 |     127.61KB |
+|   deas-0.25.0 |       422.50 |     118.55KB |
+|   deas-0.27.0 |       430.40 |     120.90KB |
+|   deas-0.28.0 |       432.93 |     121.75KB |
 
-### 03 Erb with Partial
+### 02_erb_basic
 
-A single endpoint that renders a template that renders a partial with no layout.
-
-|    Version    | Requests/sec | Transfer/sec |
-| ------------- | ------------ | ------------ |
-| Sinatra 1.4.5 |       295.73 |     111.76KB |
-|   Deas 0.25.0 |       313.54 |     118.77KB |
-|   Deas 0.27.0 |       312.85 |     118.37KB |
-|   Deas 0.28.0 |       301.86 |     114.22KB |
-
-### 04 Erb with Layout
-
-A single endpoint that renders a template that renders in a layout.
+Single endpoint rendering with no partials or layouts.
 
 |    Version    | Requests/sec | Transfer/sec |
 | ------------- | ------------ | ------------ |
-| Sinatra 1.4.5 |       291.35 |     107.39KB |
-|   Deas 0.25.0 |       327.96 |     120.56KB |
-|   Deas 0.27.0 |       326.43 |     120.00KB |
-|   Deas 0.28.0 |       304.50 |     112.08KB |
+| sinatra-1.4.5 |       336.07 |     110.93KB |
+|   deas-0.25.0 |       343.47 |     113.79KB |
+|   deas-0.27.0 |       350.36 |     115.92KB |
+|   deas-0.28.0 |       334.31 |     110.62KB |
 
-### 05 Erb with Layout and Partial
+### 03_erb_partial
 
-A single endpoint that renders a template that renders a partial in a layout.
-
-|    Version    | Requests/sec | Transfer/sec |
-| ------------- | ------------ | ------------ |
-| Sinatra 1.4.5 |       266.89 |     109.50KB |
-|   Deas 0.25.0 |       294.42 |     120.46KB |
-|   Deas 0.27.0 |       285.44 |     116.79KB |
-|   Deas 0.28.0 |       278.57 |     114.26KB |
-
-### 06 Hello many routes
-
-A single, basic "Hello World" endpoint alongside many other endpoints.
+Single endpoint rendering a partial with no layout.
 
 |    Version    | Requests/sec | Transfer/sec |
 | ------------- | ------------ | ------------ |
-| Sinatra 1.4.5 |       320.01 |      89.96KB |
-|   Deas 0.25.0 |       320.64 |      90.00KB |
-|   Deas 0.27.0 |       321.00 |      90.38KB |
-|   Deas 0.28.0 |       315.47 |      88.55KB |
+| sinatra-1.4.5 |       306.22 |     115.87KB |
+|   deas-0.25.0 |       309.91 |     117.26KB |
+|   deas-0.27.0 |       304.84 |     115.21KB |
+|   deas-0.28.0 |       300.33 |     113.64KB |
+
+### 04_erb_layout
+
+Single endpoint rendering in a layout.
+
+|    Version    | Requests/sec | Transfer/sec |
+| ------------- | ------------ | ------------ |
+| sinatra-1.4.5 |       290.96 |     106.84KB |
+|   deas-0.25.0 |       307.90 |     113.47KB |
+|   deas-0.27.0 |       308.91 |     113.57KB |
+|   deas-0.28.0 |       306.91 |     113.25KB |
+
+### 05_erb_layout_partial
+
+Single endpoint rendering a partial in a layout.
+
+|    Version    | Requests/sec | Transfer/sec |
+| ------------- | ------------ | ------------ |
+| sinatra-1.4.5 |       276.88 |     113.02KB |
+|   deas-0.25.0 |       283.93 |     116.32KB |
+|   deas-0.27.0 |       287.72 |     117.59KB |
+|   deas-0.28.0 |       274.88 |     112.48KB |
+
+### 06_hello_many_routes
+
+"Hello World" endpoint with many other endpoints.
+
+|    Version    | Requests/sec | Transfer/sec |
+| ------------- | ------------ | ------------ |
+| sinatra-1.4.5 |       329.87 |      92.73KB |
+|   deas-0.25.0 |       320.90 |      90.35KB |
+|   deas-0.27.0 |       317.92 |      89.10KB |
+|   deas-0.28.0 |       314.42 |      88.26KB |
 
 ## Usage
 
