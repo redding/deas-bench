@@ -2,6 +2,7 @@ require 'rubygems'
 require 'bundler/setup' if File.exists?(ENV['BUNDLE_GEMFILE'])
 
 require 'sinatra/base'
+require 'erubis'
 
 class App < Sinatra::Application
 
