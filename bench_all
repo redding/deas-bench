@@ -64,7 +64,9 @@ CASES = [
 ]
 
 begin
-  puts CASES.map{ |c| DeasBenchCase.new(c).tap(&:run).to_md }.join
+  folder = ARGV.first.to_s.gsub('/', '')
+  cases = folder.empty? ? CASES : CASES.select{ |c| c[:name] == folder }
+  puts cases.map{ |c| DeasBenchCase.new(c).tap(&:run).to_md }.join
 rescue StandardError => exception
   $stderr.puts "#{exception.class}: #{exception.message}"
   $stderr.puts exception.backtrace.join("\n")
