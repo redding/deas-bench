@@ -12,8 +12,8 @@ class DeasBenchCase
     @name = case_data[:name]
     @desc = case_data[:desc]
 
-    @sinatra_dirs = Dir.glob("#{@name}/sinatra-*")
-    @deas_dirs    = Dir.glob("#{@name}/deas-*")
+    @deas_dirs    = Dir.glob("#{@name}/deas-*").reverse
+    @sinatra_dirs = Dir.glob("#{@name}/sinatra-*").reverse
 
     @results = []
   end
@@ -33,7 +33,7 @@ class DeasBenchCase
   def run
     puts @name
 
-    dirs = @sinatra_dirs + @deas_dirs
+    dirs = @deas_dirs + @sinatra_dirs
     cmds = dirs.map do |d|
       { :version => d.split('/').last, :cmd => Scmd.new("#{CMD} #{d}") }
     end
@@ -64,7 +64,9 @@ CASES = [
 ]
 
 begin
-  puts CASES.map{ |c| DeasBenchCase.new(c).tap(&:run).to_md }.join
+  folder = ARGV.first.to_s.gsub('/', '')
+  cases = folder.empty? ? CASES : CASES.select{ |c| c[:name] == folder }
+  puts cases.map{ |c| DeasBenchCase.new(c).tap(&:run).to_md }.join
 rescue StandardError => exception
   $stderr.puts "#{exception.class}: #{exception.message}"
   $stderr.puts exception.backtrace.join("\n")

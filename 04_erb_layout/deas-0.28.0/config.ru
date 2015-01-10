@@ -1,6 +1,8 @@
 require 'rubygems'
 require 'bundler/setup' if File.exists?(ENV['BUNDLE_GEMFILE'])
+
 require 'deas'
+require 'erubis'
 
 class App
   include Deas::Server

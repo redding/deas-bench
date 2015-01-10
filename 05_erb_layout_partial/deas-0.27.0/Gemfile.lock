@@ -5,6 +5,7 @@ GEM
       ns-options (~> 1.1, >= 1.1.4)
       rack (~> 1.5)
       sinatra (~> 1.4)
+    erubis (2.7.0)
     ns-options (1.1.6)
     rack (1.5.2)
     rack-protection (1.5.3)
@@ -20,3 +21,4 @@ PLATFORMS
 
 DEPENDENCIES
   deas (= 0.27.0)
+  erubis (~> 2.7)
