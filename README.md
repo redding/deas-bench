@@ -72,8 +72,10 @@ Single endpoint rendering a partial in a layout.
 
 ## Usage
 
+### Bench a single version
+
 ```
-$ bundle exec ./bench FOLDER
+$ bundle exec ./bench VERSION_FOLDER
 ```
 
 For example:
@@ -105,4 +107,32 @@ Requests/sec:    447.43
 Transfer/sec:    125.68KB
 
 stopping the local server...
+```
+
+### Bench many (all) versions at once
+
+```
+$ bundle exec ./bench_all [TOP_FOLDER]
+```
+
+For example:
+
+```
+$ bx ./bench_all 06_hello_many_routes/
+06_hello_many_routes
+bundle exec ./bench 06_hello_many_routes/deas-0.28.0
+bundle exec ./bench 06_hello_many_routes/deas-0.27.0
+bundle exec ./bench 06_hello_many_routes/deas-0.25.0
+bundle exec ./bench 06_hello_many_routes/sinatra-1.4.5
+
+### 06_hello_many_routes
+
+"Hello World" endpoint with many other endpoints.
+
+|    Version    | Requests/sec | Transfer/sec |
+| ------------- | ------------ | ------------ |
+|   deas-0.28.0 |       308.93 |      86.72KB |
+|   deas-0.27.0 |       308.99 |      86.88KB |
+|   deas-0.25.0 |       317.39 |      88.95KB |
+| sinatra-1.4.5 |       319.35 |      89.78KB |
 ```
