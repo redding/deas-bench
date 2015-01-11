@@ -1,0 +1,3 @@
+@_erb_buf = ''; @_erb_buf << %Q`<h1>An Erb Template!</h1>
+<p>Some markup up in here</p>\n`
+@_erb_buf.to_s

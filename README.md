@@ -10,10 +10,11 @@ Single "Hello World" endpoint
 
 |    Version    | Requests/sec | Transfer/sec |
 | ------------- | ------------ | ------------ |
-|   deas-0.28.0 |       428.91 |     120.49KB |
-|   deas-0.27.0 |       419.98 |     117.85KB |
-|   deas-0.25.0 |       424.93 |     119.51KB |
-| sinatra-1.4.5 |       452.88 |     127.07KB |
+|   deas-0.29.0 |       417.44 |     117.00KB |
+|   deas-0.28.0 |       418.24 |     117.63KB |
+|   deas-0.27.0 |       404.93 |     114.04KB |
+|   deas-0.25.0 |       417.49 |     117.15KB |
+| sinatra-1.4.5 |       440.80 |     123.82KB |
 
 ### 02_erb_basic
 
@@ -21,10 +22,11 @@ Single endpoint rendering with no partials or layouts.
 
 |    Version    | Requests/sec | Transfer/sec |
 | ------------- | ------------ | ------------ |
-|   deas-0.28.0 |       346.80 |     114.61KB |
-|   deas-0.27.0 |       356.80 |     117.77KB |
-|   deas-0.25.0 |       363.82 |     120.36KB |
-| sinatra-1.4.5 |       379.54 |     125.28KB |
+|   deas-0.29.0 |       356.52 |     117.82KB |
+|   deas-0.28.0 |       323.01 |     106.75KB |
+|   deas-0.27.0 |       348.29 |     114.96KB |
+|   deas-0.25.0 |       348.03 |     115.02KB |
+| sinatra-1.4.5 |       366.94 |     121.12KB |
 
 ### 03_erb_partial
 
@@ -32,10 +34,11 @@ Single endpoint rendering a partial with no layout.
 
 |    Version    | Requests/sec | Transfer/sec |
 | ------------- | ------------ | ------------ |
-|   deas-0.28.0 |       311.86 |     118.44KB |
-|   deas-0.27.0 |       310.76 |     118.16KB |
-|   deas-0.25.0 |       320.87 |     121.58KB |
-| sinatra-1.4.5 |       326.50 |     123.99KB |
+|   deas-0.29.0 |       347.44 |     131.79KB |
+|   deas-0.28.0 |       292.33 |     110.90KB |
+|   deas-0.27.0 |       310.93 |     117.95KB |
+|   deas-0.25.0 |       307.21 |     116.68KB |
+| sinatra-1.4.5 |       322.33 |     122.27KB |
 
 ### 04_erb_layout
 
@@ -43,10 +46,11 @@ Single endpoint rendering in a layout.
 
 |    Version    | Requests/sec | Transfer/sec |
 | ------------- | ------------ | ------------ |
-|   deas-0.28.0 |       313.51 |     115.67KB |
-|   deas-0.27.0 |       316.25 |     116.40KB |
-|   deas-0.25.0 |       317.35 |     116.66KB |
-| sinatra-1.4.5 |       326.92 |     120.32KB |
+|   deas-0.29.0 |       318.90 |     117.37KB |
+|   deas-0.28.0 |       291.88 |     107.59KB |
+|   deas-0.27.0 |       316.45 |     116.61KB |
+|   deas-0.25.0 |       317.88 |     117.13KB |
+| sinatra-1.4.5 |       312.37 |     115.11KB |
 
 ### 05_erb_layout_partial
 
@@ -54,10 +58,11 @@ Single endpoint rendering a partial in a layout.
 
 |    Version    | Requests/sec | Transfer/sec |
 | ------------- | ------------ | ------------ |
-|   deas-0.28.0 |       283.48 |     116.41KB |
-|   deas-0.27.0 |       281.76 |     115.43KB |
-|   deas-0.25.0 |       285.43 |     117.07KB |
-| sinatra-1.4.5 |       319.66 |     130.80KB |
+|   deas-0.29.0 |       299.86 |     123.11KB |
+|   deas-0.28.0 |       281.80 |     115.59KB |
+|   deas-0.27.0 |       283.48 |     116.27KB |
+|   deas-0.25.0 |       274.93 |     112.50KB |
+| sinatra-1.4.5 |       309.77 |     126.75KB |
 
 ### 06_hello_many_routes
 
@@ -65,10 +70,11 @@ Single endpoint rendering a partial in a layout.
 
 |    Version    | Requests/sec | Transfer/sec |
 | ------------- | ------------ | ------------ |
-|   deas-0.28.0 |       308.93 |      86.72KB |
-|   deas-0.27.0 |       308.99 |      86.88KB |
-|   deas-0.25.0 |       317.39 |      88.95KB |
-| sinatra-1.4.5 |       319.35 |      89.78KB |
+|   deas-0.29.0 |       300.76 |      84.43KB |
+|   deas-0.28.0 |       300.38 |      84.33KB |
+|   deas-0.27.0 |       300.80 |      84.30KB |
+|   deas-0.25.0 |       304.89 |      85.45KB |
+| sinatra-1.4.5 |       320.88 |      90.35KB |
 
 ## Usage
 
