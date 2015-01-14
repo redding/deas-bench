@@ -1,9 +1,9 @@
 Running 2s test @ http://0.0.0.0:9292
   2 threads and 10 connections
   Thread Stats   Avg      Stdev     Max   +/- Stdev
-    Latency    36.86ms   25.15ms  82.14ms   72.50%
-    Req/Sec   161.38     64.46   243.00     57.50%
-  635 requests in 2.00s, 233.44KB read
+    Latency    35.69ms   24.71ms  80.56ms   75.00%
+    Req/Sec   162.28     56.43   250.00     68.75%
+  636 requests in 2.00s, 234.36KB read
   Socket errors: connect 0, read 7, write 0, timeout 0
-Requests/sec:    317.35
-Transfer/sec:    116.66KB
+Requests/sec:    317.88
+Transfer/sec:    117.13KB

@@ -1,0 +1,4 @@
+source "https://rubygems.org"
+
+gem "deas", "= 0.29.0"
+gem "deas-erubis", "~> 0.3"
