@@ -10,11 +10,12 @@ Single "Hello World" endpoint
 
 |    Version    | Requests/sec | Transfer/sec |
 | ------------- | ------------ | ------------ |
-|   deas-0.29.0 |       417.44 |     117.00KB |
-|   deas-0.28.0 |       418.24 |     117.63KB |
-|   deas-0.27.0 |       404.93 |     114.04KB |
-|   deas-0.25.0 |       417.49 |     117.15KB |
-| sinatra-1.4.5 |       440.80 |     123.82KB |
+|   deas-0.31.0 |       430.86 |     120.76KB |
+|   deas-0.29.0 |       423.75 |     119.04KB |
+|   deas-0.28.0 |       408.36 |     114.73KB |
+|   deas-0.27.0 |       437.01 |     122.48KB |
+|   deas-0.25.0 |       430.22 |     120.85KB |
+| sinatra-1.4.5 |       453.31 |     127.46KB |
 
 ### 02_erb_basic
 
@@ -22,11 +23,12 @@ Single endpoint rendering with no partials or layouts.
 
 |    Version    | Requests/sec | Transfer/sec |
 | ------------- | ------------ | ------------ |
-|   deas-0.29.0 |       356.52 |     117.82KB |
-|   deas-0.28.0 |       323.01 |     106.75KB |
-|   deas-0.27.0 |       348.29 |     114.96KB |
-|   deas-0.25.0 |       348.03 |     115.02KB |
-| sinatra-1.4.5 |       366.94 |     121.12KB |
+|   deas-0.31.0 |       401.50 |     132.66KB |
+|   deas-0.29.0 |       378.01 |     125.05KB |
+|   deas-0.28.0 |       345.73 |     114.39KB |
+|   deas-0.27.0 |       367.40 |     121.55KB |
+|   deas-0.25.0 |       361.68 |     119.52KB |
+| sinatra-1.4.5 |       378.87 |     125.33KB |
 
 ### 03_erb_partial
 
@@ -34,11 +36,12 @@ Single endpoint rendering a partial with no layout.
 
 |    Version    | Requests/sec | Transfer/sec |
 | ------------- | ------------ | ------------ |
-|   deas-0.29.0 |       347.44 |     131.79KB |
-|   deas-0.28.0 |       292.33 |     110.90KB |
-|   deas-0.27.0 |       310.93 |     117.95KB |
-|   deas-0.25.0 |       307.21 |     116.68KB |
-| sinatra-1.4.5 |       322.33 |     122.27KB |
+|   deas-0.31.0 |       401.78 |     152.93KB |
+|   deas-0.29.0 |       359.35 |     136.44KB |
+|   deas-0.28.0 |       310.37 |     117.74KB |
+|   deas-0.27.0 |       315.94 |     119.85KB |
+|   deas-0.25.0 |       324.00 |     122.90KB |
+| sinatra-1.4.5 |       328.43 |     124.58KB |
 
 ### 04_erb_layout
 
@@ -46,11 +49,12 @@ Single endpoint rendering in a layout.
 
 |    Version    | Requests/sec | Transfer/sec |
 | ------------- | ------------ | ------------ |
-|   deas-0.29.0 |       318.90 |     117.37KB |
-|   deas-0.28.0 |       291.88 |     107.59KB |
-|   deas-0.27.0 |       316.45 |     116.61KB |
-|   deas-0.25.0 |       317.88 |     117.13KB |
-| sinatra-1.4.5 |       312.37 |     115.11KB |
+|   deas-0.31.0 |       377.67 |     139.23KB |
+|   deas-0.29.0 |       328.40 |     120.86KB |
+|   deas-0.28.0 |       314.84 |     116.02KB |
+|   deas-0.27.0 |       319.87 |     117.73KB |
+|   deas-0.25.0 |       325.91 |     119.81KB |
+| sinatra-1.4.5 |       333.98 |     122.77KB |
 
 ### 05_erb_layout_partial
 
@@ -58,11 +62,12 @@ Single endpoint rendering a partial in a layout.
 
 |    Version    | Requests/sec | Transfer/sec |
 | ------------- | ------------ | ------------ |
-|   deas-0.29.0 |       299.86 |     123.11KB |
-|   deas-0.28.0 |       281.80 |     115.59KB |
-|   deas-0.27.0 |       283.48 |     116.27KB |
-|   deas-0.25.0 |       274.93 |     112.50KB |
-| sinatra-1.4.5 |       309.77 |     126.75KB |
+|   deas-0.31.0 |       383.91 |     157.36KB |
+|   deas-0.29.0 |       320.99 |     131.62KB |
+|   deas-0.28.0 |       288.86 |     118.34KB |
+|   deas-0.27.0 |       296.02 |     121.40KB |
+|   deas-0.25.0 |       299.37 |     122.91KB |
+| sinatra-1.4.5 |       321.89 |     131.71KB |
 
 ### 06_hello_many_routes
 
@@ -70,11 +75,12 @@ Single endpoint rendering a partial in a layout.
 
 |    Version    | Requests/sec | Transfer/sec |
 | ------------- | ------------ | ------------ |
-|   deas-0.29.0 |       300.76 |      84.43KB |
-|   deas-0.28.0 |       300.38 |      84.33KB |
-|   deas-0.27.0 |       300.80 |      84.30KB |
-|   deas-0.25.0 |       304.89 |      85.45KB |
-| sinatra-1.4.5 |       320.88 |      90.35KB |
+|   deas-0.31.0 |       318.83 |      89.50KB |
+|   deas-0.29.0 |       320.44 |      89.95KB |
+|   deas-0.28.0 |       316.95 |      89.38KB |
+|   deas-0.27.0 |       321.30 |      90.19KB |
+|   deas-0.25.0 |       321.90 |      90.36KB |
+| sinatra-1.4.5 |       320.44 |      90.22KB |
 
 ## Usage
 
