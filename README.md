@@ -2,6 +2,14 @@
 
 A project to bench Deas versions against themselves and others
 
+## Notes
+
+* sinatra runs with template caching on
+* all erb cases use erubis - both for sinatra and deas
+* deas-0.28.0 and prior uses sinatra for routing, handling, and rendering
+* deas-0.29.0 switches to deas-erubis for template rendering
+* deas-0.31.0 uses an optimized deas-erubis
+
 ## Results
 
 ### 01_hello
